@@ -7,3 +7,13 @@
 .subject {
     font-size: 16px;    
 }
+.work-headers {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.work-titles,
+.work-dates {
+    margin-top: 0;
+    margin-bottom: 0;
+}
