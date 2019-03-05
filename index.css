@@ -1,3 +1,10 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
 .name {
     text-align: center;
     font-family: "Courier New", Courier, monospace;
@@ -60,12 +67,12 @@ table.test th td {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-size: 20px;
-
 }
 
 .education-header,
 .work-header,
-.skills-header {
+.skills-header,
+.profile-header {
     font-size: 22px;
     font-family: Georgia, "Times New Roman", Times, serif;
     margin-top: 25px;
@@ -75,8 +82,13 @@ table.test th td {
     padding-top: 5px;
     line-height: 35px;
     margin-top: -25px;
+    margin-bottom: 25px;
 }
 
 tr {
     line-height: 22px;
+}
+
+.profile-p {
+    margin-bottom: 25px;
 }
